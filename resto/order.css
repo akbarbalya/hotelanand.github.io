@@ -1,0 +1,14 @@
+.orderdetails{
+    text-align: center;
+}
+.formdiv  {
+       position: relative;
+      left: 42%;
+       font-size: large;
+       
+}
+  
+#submit{
+    width: 200px;
+}
+ 

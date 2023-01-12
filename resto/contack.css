@@ -1,0 +1,25 @@
+.contack input{
+    width: 200px;
+    height: 20px;
+}
+.contack{
+    font-size: 20px;
+    position: relative;
+    left: 161px;
+    bottom: -54px;
+}
+.contackdiv{
+    height: 480px;
+    width: 99.78%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contack1{
+    width:49%;
+    height: 440px;
+    border: 2px solid aqua;
+    float: left;
+}
+ 

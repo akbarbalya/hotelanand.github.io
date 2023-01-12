@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.navbar{
+   
+    background: rgb(69, 11, 11);
+    height: 75px;
+    width:100%;
+    position: sticky;
+    z-index: 1000;
+    
+}
+ #menu ul li a {
+   
+   float: left;
+   /* background-color: aqua; */
+   /* border: 2px solid white; */
+    list-style: none;
+    position: relative;
+    left: 33%;
+    bottom: 106px;
+    font-size: 25px;
+    padding: 19px;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(167, 14, 250);
+    height: 20px;
+}
+#menu ul li  {
+    text-decoration: none;
+    color: rgb(167, 14, 250);
+    display: block;
+     
+     
+}   
+/* #menu ul li a{
+    text-decoration: none; 
+    display: block;
+    height: 54px;
+    list-style: none;
+    font-size: 25px;
+    
+} */
+.logo{
+    height: 75px;
+    position: relative;
+    bottom: 28px;
+    left: 5px;
+    
+}
+/* .inputtext{
+    height: 15px;
+    position: relative;
+    left: 37%;
+    bottom: 81px;
+
+} */
+h1.head12{
+    height: auto;
+    width: 190px;
+    position: relative;
+    left: 160px;
+    bottom: -19px;
+    color:cyan;
+    
+    
+}
+/* #head{
+    position: fixed;
+    z-index: 1000;
+     
+}
+  */
+ .inputtext:focus{
+    background-color: aqua;
+}
+#menu ul li a:hover{
+    background-color: aqua;
+    height: 35px;
+    
+}
+.imgicon img{
+    height: 73px  ;
+    width: auto;
+    float: right;
+    position: relative;
+    bottom: 106px;
+}
+.divforhead{
+    height: 75px;
+    width:100%;
+    display: flex;
+}
+.menubars{
+    display: none;
+}
+@media screen and (max-width: 767px)
+{
+   ul{
+      display: table;   
+      
+   }   
+   #menu {
+    display: none;
+    position: relative;
+    bottom: -55px;
+    left: 70px;
+    background-color: black;
+   }
+   .menubars {
+    display: block;
+    height: 19px;
+    width: auto;
+    float: right;
+    border: 1px solid aqua;
+    padding: 12px 17px;
+    position: relative;
+    bottom: 12px;
+    border-radius: 8px;
+   }
+   .imgicon{
+    display: none;
+   }
+   .fa-bars{
+    color: aliceblue;
+   }
+   h1.head12{
+    position:relative;
+    left: 100px;
+    bottom: -22px;
+   }
+   /* #menu{
+    position: relative;
+    bottom: -55px;
+    left: 70px;
+   } */
+}
+ 
