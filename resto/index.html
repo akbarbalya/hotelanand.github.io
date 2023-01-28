@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <head>
     <meta charset="UTF-8">
@@ -11,18 +11,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="icon" href="logo1.png" type="image/png">
+    <link rel="stylesheet" href="loader.css">
     <script src="jquery-3.6.3.min.js">
 
     </script>
-    <!-- <link rel="stylesheet" href="order.css"> -->
-    <!-- <link rel="stylesheet" href="about.css"> -->
+    <script>
+        window.onload=function(){
+           document.getElementById("loader").style.display="none" ;
+           document.getElementById("preloader").style.display="block" ; 
+
+        }
+    </script>
   
 </head>
 
 <body>
-
-
-
+         <div id="loader">
+            <img src="images for resto/preloader.gif" alt=""> 
+         </div>
+ <div id="preloader">
      <div class="divforhead">
         <!-- <div class="menubars"> 
         <i class="fa fa-bars"></i>
@@ -73,6 +80,7 @@
         </center>
     </H1>
     <br>
+    <div class="maintopcat">
     <div class="topcat">
         <div class="topcatpro"><img src="images for resto/fast8.jpg">
             <div class="starr">
@@ -239,6 +247,7 @@
         </div>
          
     </div>
+    </div>
 
 
     <!-- footer opton -->
@@ -291,7 +300,7 @@
     })
   </script>
 
-
+</div>
 </body>
 
 </html>
